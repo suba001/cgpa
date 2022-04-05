@@ -13,28 +13,33 @@
 </head>
 <body>
     <h1 style="text-align: center;color:darkviolet">SEM RESULT</h1>
-    <div class="text-center bg-info border border-danger border-3 " style="width:50%;margin-left: 25%;">
-    <form id="demo" >
+    <div class="bg-info">
+    <div class="card text-center bg-info border border-danger border-3 " style="width:50%;margin-left: 25%;">
+    <img class="card-img-top" src="/result.jpg" style="height:600px;">
+    <div class="card-img-overlay">
+        <form id="demo" >
         <fieldset>
             <legend>total:</legend>
-<label for="name"><strong>Student name:</strong></label>
+<label for="name"><strong style="color: chartreuse;">Student name:</strong></label>
 <input type="text" id="name" name="name"><br>
-<h2><label for="marks">Student's marks:</label></h2><br>
-<label for="s1"><strong>Web Technology:</strong></label><br>
+<h2><label for="marks" style="color:aliceblue">Student's marks:</label></h2><br>
+<label for="s1"><strong style="color:darkblue">Web Technology:</strong></label><br>
 <input type="text" class="border-warning" id="wt" name="wt"><br>
-<label for="s1"><strong>xDBMS</strong></label><br>
+<label for="s1"><strong  style="color:darkblue">xDBMS</strong></label><br>
 <input type="text" id="dbms" class="border-primary" name="dbms"><br>
-<label for="s1"><strong>DAA</strong></label><br>
+<label for="s1"><strong style="color:darkblue">DAA</strong></label><br>
 <input type="text" id="daa"  class="border-danger" name="daa"><br>
-<label for="s1"><strong>PS</strong></label><br>
+<label for="s1"><strong style="color:darkblue">PS</strong></label><br>
 <input type="text" id="ps" class="border-primary" name="ps"><br>
-<label for="s1"><strong>Python</strong></label><br>
+<label for="s1"><strong style="color:darkblue">Python</strong></label><br>
 <input type="text" id="py" class="border-danger" name="py"><br><br>
-<label for="s1"><strong>Previous gpa:</strong></label><br>
+<label for="s1"><strong style="color:darkblue">Previous gpa:</strong></label><br>
 <input type="text" id="gpa" class="border-warning" name="py"><br><br>
 <input type="button" value="submit" class="bg-danger text-white" onclick="fun1()">
 </fieldset>
 </form>
+</div>
+</div>
 </div>
     <script>
         function fun1(){
